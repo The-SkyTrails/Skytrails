@@ -1,0 +1,9 @@
+{
+  "name": "Travvolt",
+  "displayName": "Travvolt",
+  "extra": {
+    "eas": {
+      "projectId": "2541c276-12ea-46d1-b4d6-bc53dfef7b0c"
+    }
+  }
+}
