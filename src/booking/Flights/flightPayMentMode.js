@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {
   StyleSheet,
-  Text,
   StatusBar,
   View,
   Dimensions,
@@ -13,6 +12,7 @@ import {
   Button,
   TextInput,
 } from 'react-native';
+import { Text } from 'react-native-paper';
 
 const {width, height} = Dimensions.get('window');
 

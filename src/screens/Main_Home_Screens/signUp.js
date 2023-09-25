@@ -1,13 +1,15 @@
 import React, {useState} from 'react';
 import {
   View,
-  Text,
   TextInput,
   TouchableOpacity,
   AsyncStorage,
   StyleSheet,
+  StatusBar
 } from 'react-native';
 import axios from 'axios';
+import { Text } from 'react-native-paper';
+import color from '../../theme/color';
 
 const SignUp = ({navigation}) => {
   const [email, setEmail] = useState('');
@@ -66,6 +68,7 @@ const SignUp = ({navigation}) => {
 
   return (
     <View style={styles.container}>
+        <StatusBar animated={true} backgroundColor={color.primary} />
       <TextInput
         style={styles.input}
         placeholder="Email"

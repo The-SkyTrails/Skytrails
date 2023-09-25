@@ -2,7 +2,6 @@
 import React, {useState, useEffect} from 'react';
 import {
   StyleSheet,
-  Text,
   StatusBar,
   View,
   Dimensions,
@@ -22,6 +21,7 @@ import HomeScreen from '../../component/slider';
 import {Roboto_100Thin} from '@expo-google-fonts/roboto';
 import SearchableDropdown from 'react-native-searchable-dropdown';
 // import items from './city.json';
+import { Text } from 'react-native-paper';
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {Picker} from '@react-native-picker/picker';

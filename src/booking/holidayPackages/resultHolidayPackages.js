@@ -2,7 +2,6 @@
 import React from 'react';
 import {
   StyleSheet,
-  Text,
   StatusBar,
   View,
   Dimensions,
@@ -17,6 +16,7 @@ import {
   ActivityIndicator,
 } from 'react-native';
 const {width, height} = Dimensions.get('window');
+import { Text } from 'react-native-paper';
 
 let CardSmall = function (props) {
   return (

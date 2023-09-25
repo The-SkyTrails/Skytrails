@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {
   StyleSheet,
-  Text,
   StatusBar,
   View,
   Dimensions,
@@ -14,7 +13,7 @@ import {
   TextInput,
 } from 'react-native';
 const {width, height} = Dimensions.get('window');
-
+import { Text } from 'react-native-paper';
 const PassengerFlightDetails = ({navigation, route}) => {
   // const response=route.params.response
   const responseData = route.params.data;

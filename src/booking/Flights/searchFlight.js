@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {
   StyleSheet,
-  Text,
+  
   StatusBar,
   View,
   Dimensions,
@@ -13,6 +13,7 @@ import {
 } from 'react-native';
 import {useSelector} from 'react-redux';
 const {width, height} = Dimensions.get('window');
+import { Text } from 'react-native-paper';
 import RNFS from 'react-native-fs';
 
 const SearchFlights = ({navigation, route}) => {

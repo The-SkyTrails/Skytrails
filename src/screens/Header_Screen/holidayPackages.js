@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {
   StyleSheet,
-  Text,
   StatusBar,
   View,
   Dimensions,
@@ -13,6 +12,7 @@ import {
   ScrollView,
 } from 'react-native';
 const {width, height} = Dimensions.get('window');
+import { Text } from 'react-native-paper';
 
 import DatePicker from 'react-native-neat-date-picker';
 

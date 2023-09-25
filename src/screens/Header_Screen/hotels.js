@@ -2,7 +2,7 @@ import {Roboto_100Thin} from '@expo-google-fonts/roboto';
 import React, {useState} from 'react';
 import {
   StyleSheet,
-  Text,
+
   StatusBar,
   View,
   Dimensions,
@@ -17,6 +17,7 @@ import {
   ActivityIndicator,
 } from 'react-native';
 import DatePicker from 'react-native-neat-date-picker';
+import { Text } from 'react-native-paper';
 import SearchableDropdown from 'react-native-searchable-dropdown';
 import HomeScreen from '../../component/slider';
 import items from './NewCityListHotel.json';

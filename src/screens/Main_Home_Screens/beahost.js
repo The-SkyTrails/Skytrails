@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import {
   StyleSheet,
-  Text,
   StatusBar,
   View,
   Dimensions,
@@ -10,6 +9,7 @@ import {
   ImageBackground,
   ToastAndroid,
 } from "react-native";
+import { Text } from 'react-native-paper';
 const { width, height } = Dimensions.get("window");
 const BeHost = ({ navigation }) => {
   return (

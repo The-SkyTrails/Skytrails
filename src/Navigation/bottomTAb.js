@@ -4,7 +4,6 @@ import {
   SafeAreaView,
   StyleSheet,
   View,
-  Text,
   StatusBar,
   Image,
   ImageRequireSource,
@@ -12,6 +11,7 @@ import {
   TouchableOpacity,
   ScrollView,
 } from 'react-native';
+import { Text } from 'react-native-paper';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {NavigationContainer} from '@react-navigation/native';
 import MHome from '../screens/Main_Home_Screens/home';

@@ -1,7 +1,6 @@
 import React from "react";
 import {
   StyleSheet,
-  Text,
   StatusBar,
   View,
   Dimensions,
@@ -11,6 +10,7 @@ import {
   ScrollView,
   TextInput,
 } from "react-native";
+import { Text } from 'react-native-paper';
 import HomeScreen from "../../component/slider";
 const { width, height } = Dimensions.get("window");
 

@@ -2,7 +2,7 @@
 import React from 'react';
 import {
   StyleSheet,
-  Text,
+
   View,
   TextInput,
   Dimensions,
@@ -12,7 +12,7 @@ import {
   ScrollView,
 } from 'react-native';
 import axios from 'axios';
-
+import { Text } from 'react-native-paper';
 import Header from '../../component/header';
 import RazorpayCheckout from 'react-native-razorpay';
 const {width, height} = Dimensions.get('window');

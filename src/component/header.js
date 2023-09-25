@@ -1,5 +1,6 @@
 import React from 'react';
-import {StyleSheet, Text, View, TouchableOpacity, Image} from 'react-native';
+import {StyleSheet,View, TouchableOpacity, Image} from 'react-native';
+import { Text } from 'react-native-paper';
 
 let Header = function (props) {
   return (

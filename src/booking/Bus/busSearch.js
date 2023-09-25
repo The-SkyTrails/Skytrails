@@ -2,7 +2,6 @@
 import React, {useState, useEffect} from 'react';
 import {
   StyleSheet,
-  Text,
   StatusBar,
   View,
   Dimensions,
@@ -17,6 +16,7 @@ import {
   ActivityIndicator,
 } from 'react-native';
 import publicIP from 'react-native-public-ip';
+import { Text } from 'react-native-paper';
 import DatePicker from 'react-native-neat-date-picker';
 import HomeScreen from '../../component/slider';
 import {Roboto_100Thin} from '@expo-google-fonts/roboto';

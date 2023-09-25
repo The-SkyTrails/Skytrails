@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import {
   StyleSheet,
-  Text,
   StatusBar,
   View,
   Dimensions,
@@ -14,6 +13,7 @@ import {
   Button,
   Modal,
 } from "react-native";
+import { Text } from 'react-native-paper';
 import SearchableDropdown from "react-native-searchable-dropdown";
 import items from "./city.json";
 const { width, height } = Dimensions.get("window");

@@ -2,6 +2,7 @@ import React from "react";
 import { Text, TouchableOpacity, View, Image } from "react-native";
 import Swiper from "react-native-web-swiper";
 
+
 export default class HomeScreen extends React.Component {
   render() {
     return (

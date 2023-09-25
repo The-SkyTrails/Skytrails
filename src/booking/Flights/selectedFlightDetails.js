@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {
   StyleSheet,
-  Text,
+  
   StatusBar,
   View,
   Dimensions,
@@ -13,6 +13,7 @@ import {
   Button,
 } from 'react-native';
 import axios from 'axios';
+import { Text } from 'react-native-paper';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const {width, height} = Dimensions.get('window');

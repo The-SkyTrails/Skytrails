@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import {
   StyleSheet,
-  Text,
   StatusBar,
   View,
   Dimensions,
@@ -12,6 +11,7 @@ import {
   TextInput,
 } from "react-native";
 import DatePicker from "react-native-neat-date-picker";
+import { Text } from 'react-native-paper';
 import HomeScreen from "../../component/slider";
 import { Roboto_100Thin } from "@expo-google-fonts/roboto";
 const { width, height } = Dimensions.get("window");

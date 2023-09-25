@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {
   StyleSheet,
-  Text,
   View,
   Dimensions,
   TouchableOpacity,
@@ -9,6 +8,7 @@ import {
   ImageBackground,
   ScrollView,
 } from 'react-native';
+import { Text } from 'react-native-paper';
 import axios from 'axios';
 import Header from '../../component/header';
 const {width, height} = Dimensions.get('window');

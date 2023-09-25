@@ -2,7 +2,6 @@
 import React from 'react';
 import {
   StyleSheet,
-  Text,
   View,
   Dimensions,
   TouchableOpacity,
@@ -10,6 +9,7 @@ import {
   ScrollView,
 } from 'react-native';
 import axios from 'axios';
+import { Text } from 'react-native-paper';
 import Header from '../../component/header';
 const {width, height} = Dimensions.get('window');
 

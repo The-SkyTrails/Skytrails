@@ -3,6 +3,7 @@ import 'react-native';
 import {StyleSheet, StatusBar, View, Dimensions} from 'react-native';
 import TabNavigator from '../Navigation/bottomTAb';
 import React from 'react';
+import { Text } from 'react-native-paper';
 const {height, width} = Dimensions.get('window');
 
 const Holder = ({navigation, route}) => {

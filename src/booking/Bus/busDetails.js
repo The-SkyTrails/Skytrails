@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {
   StyleSheet,
-  Text,
   StatusBar,
   View,
   Dimensions,
@@ -12,6 +11,7 @@ import {
   ScrollView,
 } from 'react-native';
 import {useSelector} from 'react-redux';
+import { Text } from 'react-native-paper';
 const {width, height} = Dimensions.get('window');
 import RNFS from 'react-native-fs';
 

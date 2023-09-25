@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import {
     StyleSheet,
-    Text,
     StatusBar,
     View,
     Dimensions,
@@ -14,6 +13,7 @@ import {
     Button,
     Modal, Animated, PanResponder
 } from "react-native";
+import { Text } from 'react-native-paper';
 import {
     BottomSheetModal,
     BottomSheetModalProvider,

@@ -2,12 +2,12 @@ import React from 'react';
 import {
   StyleSheet,
   Dimensions,
-  Text,
   View,
   TouchableOpacity,
   Image,
 } from 'react-native';
 import Header from './header';
+import { Text } from 'react-native-paper';
 const {width, height} = Dimensions.get('window');
 
 let RoomGuestsModal = function (props) {

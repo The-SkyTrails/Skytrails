@@ -1,7 +1,6 @@
 import React from "react";
 import {
   StyleSheet,
-  Text,
   StatusBar,
   View,
   Dimensions,
@@ -12,6 +11,7 @@ import {
   TextInput,
 } from "react-native";
 import HomeScreen from "../../component/slider";
+import { Text } from 'react-native-paper';
 const { width, height } = Dimensions.get("window");
 
 const TrainPnr = ({ navigation }) => {

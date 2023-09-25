@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import {
     StyleSheet,
-    Text,
     StatusBar,
     View,
     Dimensions,
@@ -11,6 +10,8 @@ import {
     ToastAndroid,
     ScrollView,
 } from "react-native";
+import TopTab from "../../Navigation/TopTab";
+import { Text } from 'react-native-paper';
 const { width, height } = Dimensions.get("window");
 const MyTrip = ({ navigation }) => {
     return (

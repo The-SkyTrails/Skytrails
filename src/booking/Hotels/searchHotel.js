@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   StyleSheet,
-  Text,
   View,
   Dimensions,
   TouchableOpacity,
@@ -9,6 +8,7 @@ import {
   ImageBackground,
   ScrollView,
 } from 'react-native';
+import { Text } from 'react-native-paper';
 const {width, height} = Dimensions.get('window');
 
 let HotelCard = function (props) {

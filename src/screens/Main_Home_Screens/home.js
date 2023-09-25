@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {
   StyleSheet,
-  Text,
   StatusBar,
   View,
   Dimensions,
@@ -13,6 +12,7 @@ import {
   TextInput,
 } from 'react-native';
 import HomeScreen from '../../component/slider';
+import { Text } from 'react-native-paper';
 import publicIP from 'react-native-public-ip';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { setUserData } from '../../../redux-toolkit/slice'
